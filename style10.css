@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    width: 100%;
+    height: 100%;
+    border-color: blue;
+    position: relative;
+}
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    transform: translate(-50%);  
+    transform: translate(-50%, -50%);
+} */
+/* .rtt{
+    width: 200px;
+    height: 200px;
+    margin: 200px;
+    background-color: red;
+    /* transform: rotate(45deg);
+    transform: rotate(90deg); */
+    /* transition: 1s; */
+
+/* .rtt:hover{
+    transform: rotate(360deg);
+} */ 
+/* .scl{
+    width: 400px;
+    height: 400px;
+    margin: 200px;
+    background-color: red;
+    transform: scale(1.5);   
+    transition: 0.5sec;
+}
+.secl:hover{
+    transform: scale(1.5);
+} */
+/* .scaledDiv{
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    cursor: grab;
+    cursor: progress;
+    cursor: alias;
+    cursor: not-allowed;
+    margin: 100px;
+    overflow: hidden;
+}.scaledDiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.scaledDiv:hover img{
+    transform: scale(1.2);
+} */
+.anim{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    animation: foranim 5s infinite;
+}
+@keyframes foranim{
+    from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 50%;
+        left: 50%;
+    }
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 20%;
+        left: 0;
+    }
+    50%{
+        top: 20%;
+        left: 20%;
+    }
+    75%{
+        top: 0;
+        left: 20%;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+@keyframes backgroundColor{
+    0%{
+        background-color: rgb(0, 255, 157);
+    }
+    10%{
+        background-color: aqua;
+    }
+    20%{
+        background-color: rgb(0, 132, 255);
+    }
+    30%{
+        background-color: rgb(0, 68, 255);
+    }
+    40%{
+        background-color: rgb(17, 0, 255);
+    }
+    50%{
+        background-color: rgb(140, 0, 255);
+    }
+    60%{
+        background-color: rgb(132, 0, 255);
+    }
+    70%{
+        background-color: rgb(255, 0, 234);
+    }
+    80%{
+        background-color: rgb(255, 0, 170);
+    }
+    90%{
+        background-color: rgb(255, 0, 76);
+    }
+    100%{
+        background-color: rgb(255, 0, 0);
+    }
+}
+body{
+    animation: backgroundColor 10s infinite;
+}
+img{
+    width: 400px;
+    position: absolute;
+    /* animation: plane 5s infinite linear;
+    animation: plane 5s infinite ease-in;
+    animation: plane 5s infinite ease-out; */
+    animation: plane 5s infinite ease-in-out;
+}
+@keyframes plane{
+    from{
+        top: 100%;
+        right: 100%;
+    }
+    to{
+        top: -20%;
+        right: -20%;
+    }
+}
+
+
+
+

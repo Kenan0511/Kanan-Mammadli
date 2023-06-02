@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1438px;
+    height: 1379px;
+}
+.container h2{
+    color: #4284ff;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container p{
+    width: 804px;
+    height: 64px;
+    margin: 20px 168px 0;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 1.25rem;
+    color: #808080;
+    word-wrap: break-word;
+    text-align: center;
+}
+.cards{
+    width: 1066px;
+    height: 1140px;
+    display: flex;
+    gap: 30px;
+
+}
+.card{
+    width: 313px;
+    height: 355px;
+    overflow: hidden;
+    margin-left : 0 ;
+    margin-right: 0;
+
+}
+#img1{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/62e368b989a152c097a834bb/w.jpg);
+}
+#img2{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/c026a3bc6bff53d6a235d37d/professionalheadshots78.jpg);
+}
+#img3{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/0823d50960b858499113899d/12.jpg);
+}
+#img4{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/bcc47483e9c65ae18d38851e/9202f308-d2fa-4b91-8372-465fbbb85982.jpg);
+}
+#img5{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/d643963cf65d5093bda72d59/94bae8886a54d42681804036742ba3fb.jpg);
+}
+#img6{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/ae33e418d5505dcc96aaebcc/2.jpg);
+}

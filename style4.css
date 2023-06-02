@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.start{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    color: black;
+}
+.headline{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 40px;
+}
+.card{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+}
+#Img1{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/3.jpg);
+}
+#Img2{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/37.jpg);
+}
+#Img3{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/fd.jpg);
+}
+#Img4{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/lifestyle-people-living-e.jpg);
+}
+#Img5{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/t5.jpg);
+}
+#Img6{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/r6.jpg);
+}

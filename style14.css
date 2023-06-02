@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1438px;
+    height: 581px;
+    background-color: #3b065e;
+}
+.entrance{
+    width: 1438px;
+    height: 80px;
+    cursor: pointer;
+    color:  #a3e1f1; 
+}
+.entrance h1{
+    width: 64px;
+    height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 15px;
+}
+.body1{
+    width: 463px;
+    height: 501px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.body1 h1{
+    color: #ffffff ;
+    word-wrap: break-word;
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+}

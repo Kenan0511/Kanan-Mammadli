@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    animation: sun 30s infinite;
+
+}
+    @keyframes sun{
+    20%{
+        top: 0;
+        right: 0;
+    }
+    40%{
+        top: 25%;
+        right: 25%;
+    } 
+    60%{
+        top: 100%;
+        right: 50%;
+    }
+    80%{
+        top: 25%;
+        right: 75%;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+body{
+    animation: backgroundcolor 30s infinite;
+}
+@keyframes backgroundcolor{
+    20%{
+        background-color: black;
+    }
+    40%{
+        background-color: rgb(132, 145, 17);
+    }
+    60%{
+        background-color: rgb(122, 122, 216);
+    }
+    80%{
+        background-color: rgb(132, 145, 17);
+    }
+    100%{
+        background-color: black;
+    }
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Playfair Display', serif; 
+    width: 1371pxx;
+    height: 1438px;
+
+}
+.container h2{
+    font-size: 3.75rem;
+    line-height: 1.1;
+    height: 66px;
+    width: 636px;
+    text-align: center;
+    animation: Headline 1500ms ;
+}
+@keyframes Headline {
+    from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 0;
+        left: 50%;
+    }
+    
+}
+.container p{
+    width: 659px;
+    height: 65px;
+    background-color: red;
+    text-align: center;
+    animation: Body 1500ms ;
+}
+@keyframes Body{
+    from{
+        top: 0;
+        right: 0;
+    }
+    to{
+        top: 0;
+        right: 50%;
+    }
+}

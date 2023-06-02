@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headline{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 60px;
+}
+.start{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    color: black;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 40px;
+}
+.card{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: end;
+    padding: 30px;
+    justify-content: start;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    color:white;
+    font-size: 20px;
+}
+.card .p{
+    margin-bottom: 12px;
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+#Img1{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/14.jpg);
+}
+#Img2{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/6803.jpg);
+}
+#Img3{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/579.jpg);
+}
+#Img4{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/y8.jpg);
+}
+#Img5{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/45677.jpg);
+}
+#Img6{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/6890.jpg);
+}
+.card .text {
+    border-top: 2px solid white;
+    width: 100%;
+   
+}
